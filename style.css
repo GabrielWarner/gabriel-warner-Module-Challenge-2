@@ -1,0 +1,102 @@
+/* Universal */
+*{
+    box-sizing: border-box;
+}
+/* Navigation Bar */
+nav{
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+h1{
+    margin-right: auto;
+    background-color: rgb(194, 255, 255);
+    font-size: 1.4rem;
+    text-align: right;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    color: rgb(70, 70, 70);
+}
+
+a{
+    color: rgb(194, 255, 255);
+}
+
+li{
+    display: inline;
+    font-size: 1.4rem;
+}
+
+/* HERO BANNER */
+.hero-banner{
+    background-image: url("hero-banner.jpg");
+    padding: 6%;
+    position: relative;
+}
+
+.hero-banner-text{
+    position: absolute;
+    right: 2%;
+    background-color: rgb(194, 255, 255);
+    color: rgb(70, 70, 70);
+}
+
+/* Main Section */
+.page-section{
+    display: flex;
+    margin: 2%;
+    padding: 1%;
+    
+}
+
+.page-section-header{
+    color: rgb(0, 44, 165);
+    border-right: .3em solid rgb(0, 44, 165);
+    padding: 1em;
+    text-align: right;
+    font-size: 1em;
+    width: 20%;
+    
+}
+
+
+/* About me Section */
+.about-me-article{
+    max-width: 70%;
+    padding-left: 2em;
+}
+
+/* Project Display Section */
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 1em;
+    
+}
+
+.first-project{
+    background-color: green;
+    width: 600px;
+    height: 200px;
+    order: 1;
+    flex-grow: 1;
+}
+
+.project{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.project-link{
+    padding: .5em;
+}
