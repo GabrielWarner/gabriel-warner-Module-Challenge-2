@@ -149,6 +149,39 @@ p{
 .project-link{
     padding: .5em;
 }
+.project-2{
+    height: 250px;
+    width: 250px;
+    flex-shrink: 1;
+    position: relative;
+    background-image: url("project2.jpg");
+    background-size: cover;
+}
+
+.project-3{
+    height: 250px;
+    width: 250px;
+    flex-shrink: 1;
+    position: relative;
+    background-image: url("project3.jpg");
+    background-size: cover;
+}
+.project-4{
+    height: 250px;
+    width: 250px;
+    flex-shrink: 1;
+    position: relative;
+    background-image: url("project4.jpg");
+    background-size: cover;
+}
+.project-5{
+    height: 250px;
+    width: 250px;
+    flex-shrink: 1;
+    position: relative;
+    background-image: url("project5.jpg");
+    background-size: cover;
+}
 
 /* FOOTER */
 .contact-li{
