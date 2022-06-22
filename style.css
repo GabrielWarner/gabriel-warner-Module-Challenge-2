@@ -196,7 +196,6 @@ p{
 @media (max-width: 776px){
     /* Nav Bar */
     .nav{
-        background-color: red;
         align-items: center;
         
     }
@@ -241,14 +240,13 @@ p{
         justify-content: space-between;
     }
     .contact-link{
-        color: rgb(0, 44, 165);
+        color: var(--primary);
     }
 
 }
 
 @media (max-width: 576px){
     .nav{
-        background-color: pink;
         display: block;
         text-align: center;
         
@@ -264,4 +262,8 @@ p{
     .project{
         flex: 1;
     }
+    .about-me-article{
+        width: 100%;
+    }
+
 }
