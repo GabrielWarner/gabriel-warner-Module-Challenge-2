@@ -2,6 +2,12 @@
 *{
     box-sizing: border-box;
 }
+
+:root{
+    --primary: rgb(70, 70, 70);
+    --accent: rgb(194, 255, 255);
+
+}
 /* Navigation Bar */
 nav{
     padding-top: 1rem;
@@ -33,20 +39,39 @@ a{
 li{
     display: inline;
     font-size: 1.4rem;
+    padding: 1em;
+}
+
+p{
+    font-family: sans-serif;
+    line-height: 1.5em;
+    padding: 2em;
+    margin: 0 0 1.5em;
+    text-align: center;
 }
 
 /* HERO BANNER */
 .hero-banner{
     background-image: url("hero-banner.jpg");
-    padding: 6%;
-    position: relative;
+    background-size: cover;
+    padding: 10%;
+    text-align: center;
+    margin: auto;
+    
+    
 }
 
+
 .hero-banner-text{
-    position: absolute;
-    right: 2%;
+    position: relative;
     background-color: rgb(194, 255, 255);
     color: rgb(70, 70, 70);
+    padding: 1em;
+    
+    right: 0;
+    text-align: right;
+
+    
 }
 
 /* Main Section */
@@ -90,7 +115,19 @@ li{
     order: 1;
     width: 600px;
     height: 200px;
+    background-image: url("hero-banner.jpg");
+    background-size: cover;
+    position: relative;
 
+}
+
+.first-project-heading{
+    position: absolute;
+    left: 0;
+    bottom: 3em;
+    background-color: rgb(194, 255, 255);
+    color: var(--primary);
+    padding: ;
 }
 
 .project{
@@ -98,7 +135,16 @@ li{
     height: 250px;
     width: 250px;
     flex-shrink: 1;
+    position: relative;
     
+}
+.project-heading{
+    position: absolute;
+    left: 0;
+    bottom: 3em;
+    background-color: rgb(194, 255, 255);
+    color: var(--primary);
+    padding: 1em;
 }
 .project-link{
     padding: .5em;
@@ -106,10 +152,10 @@ li{
 
 /* FOOTER */
 .contact-li{
-
+    color: var(--primary);
 }
 .contact-link{
-
+    color: var(--primary);
 }
 
 
@@ -123,6 +169,7 @@ li{
     }
     li{
         display: block;
+        padding: .4em;
     }
     /* Hero Banner */
     .hero-banner{
@@ -136,7 +183,7 @@ li{
     .page-section{
         flex-direction: column;
         align-items: center;
-        justify-content: 
+        justify-content: ;
         
     }
     .page-section-header{
