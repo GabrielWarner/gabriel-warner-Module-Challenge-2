@@ -133,7 +133,6 @@ p{
 .first-project-heading{
     position: absolute;
     left: 0;
-    bottom: 3em;
     background-color: rgb(194, 255, 255);
     color: var(--primary);
     padding: 1em;
@@ -164,35 +163,35 @@ p{
 .project-2{
     height: 250px;
     width: 250px;
-    flex-shrink: 1;
-    position: relative;
     background-image: url("project2.jpg");
+    background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 .project-3{
     height: 250px;
     width: 250px;
-    flex-shrink: 1;
-    position: relative;
     background-image: url("project3.jpg");
+    background-position: center;
     background-size: cover;
+    position: relative;
 }
 .project-4{
     height: 250px;
     width: 250px;
-    flex-shrink: 1;
-    position: relative;
     background-image: url("project4.jpg");
+    background-position: center;
     background-size: cover;
+    position: relative;
 }
 .project-5{
     height: 250px;
     width: 250px;
-    flex-shrink: 1;
-    position: relative;
     background-image: url("project5.jpg");
+    background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 /* FOOTER */
@@ -202,7 +201,9 @@ p{
 .contact-link{
     color: var(--primary);
 }
-
+#contact-me{
+    margin-bottom: 1em;
+}
 
 /* Media Querys */
 @media (max-width: 776px){
@@ -232,6 +233,7 @@ p{
         align-items: center;
         justify-content: ;
         
+        
     }
     .page-section-header{
         border-right: 0;
@@ -244,6 +246,9 @@ p{
     }
     .first-project{
         flex: 1;
+    }
+    .first-project-heading{
+        bottom: -155px;
     }
     .project{
         flex: 1;
@@ -259,6 +264,9 @@ p{
         color: var(--primary);
         padding-top: 1em;
     }
+    #contact-me{
+        gap: .6em;
+    }
 
 }
 @media (max-width: 600px){
@@ -267,7 +275,7 @@ p{
     }
     .first-project-heading{
 
-        bottom: -205px;
+        bottom: -160px;
     }
 }
 @media (max-width: 576px){
@@ -284,8 +292,7 @@ p{
 
     }
     .project-link-first{
-        height: 250px;
-        width: 250px;
+
         background-image: url("hero-banner.jpg");
         background-position: center;
         background-size: cover;
@@ -309,6 +316,9 @@ p{
         text-align: center;
         padding: .2em;
         
+    }
+    #contact-me{
+        gap: .2em;
     }
 
 }
