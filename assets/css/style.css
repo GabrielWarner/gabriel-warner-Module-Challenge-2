@@ -52,7 +52,7 @@ p{
 
 /* HERO BANNER */
 .hero-banner{
-    background-image: url("hero-banner.jpg");
+    background-image: url("../images/hero-banner.jpg");
     background-size: cover;
     padding: 10%;
     text-align: center;
@@ -116,7 +116,7 @@ p{
 .first-project{
     background-color: green;
     order: 1;
-    background-image: url("hero-banner.jpg");
+    background-image: url("../images/hero-banner.jpg");
     background-size: cover;
     position: relative;
 
@@ -124,7 +124,7 @@ p{
 .project-link-first{
     height: 200px;
     width: 600px;
-    background-image: url("hero-banner.jpg");
+    background-image: url("../images/hero-banner.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -163,7 +163,7 @@ p{
 .project-2{
     height: 250px;
     width: 250px;
-    background-image: url("project2.jpg");
+    background-image: url("../images/project2.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -172,7 +172,7 @@ p{
 .project-3{
     height: 250px;
     width: 250px;
-    background-image: url("project3.jpg");
+    background-image: url("../images/project3.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -180,7 +180,7 @@ p{
 .project-4{
     height: 250px;
     width: 250px;
-    background-image: url("project4.jpg");
+    background-image: url("../images/project4.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -188,7 +188,7 @@ p{
 .project-5{
     height: 250px;
     width: 250px;
-    background-image: url("project5.jpg");
+    background-image: url("../images/project5.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -231,7 +231,8 @@ p{
     .page-section{
         flex-direction: column;
         align-items: center;
-        justify-content: ;
+        justify-content: center;
+        text-align: center;
         
         
     }
@@ -239,7 +240,7 @@ p{
         border-right: 0;
         border-bottom: .3em solid rgb(0, 44, 165);
         text-align: center;
-        
+        width: 65vw;
     }
     .flex-container{
         width: 600px;
@@ -277,6 +278,11 @@ p{
 
         bottom: -160px;
     }
+    .page-section-header{
+        border-right: 0;
+        border-bottom: .3em solid rgb(0, 44, 165);
+        width: 65vw;
+    }
 }
 @media (max-width: 576px){
     .nav{
@@ -293,7 +299,7 @@ p{
     }
     .project-link-first{
 
-        background-image: url("hero-banner.jpg");
+        background-image: url("../images/hero-banner.jpg");
         background-position: center;
         background-size: cover;
         position: relative;
