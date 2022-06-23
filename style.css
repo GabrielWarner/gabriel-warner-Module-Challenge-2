@@ -97,7 +97,7 @@ p{
 
 /* About me Section */
 .about-me-article{
-    max-width: 70%;
+    max-width: 60vw;
     padding-left: 2em;
 }
 
@@ -137,7 +137,7 @@ p{
     background-color: rgb(194, 255, 255);
     color: var(--primary);
     padding: 1em;
-    bottom: -205px;
+    bottom: -155px;
 }
 
 
@@ -224,6 +224,9 @@ p{
         right: auto;
     }
     /* Main Section */
+    .about-me-article{
+        max-width: 90vw;
+    }
     .page-section{
         flex-direction: column;
         align-items: center;
@@ -261,6 +264,10 @@ p{
 @media (max-width: 600px){
     .flex-container{
         width: 80vw;
+    }
+    .first-project-heading{
+
+        bottom: -205px;
     }
 }
 @media (max-width: 576px){
